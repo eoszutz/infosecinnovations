@@ -1,0 +1,75 @@
+body{
+    color: #212529;
+    background-color:white;
+}
+.row { 
+    margin: 0;
+    padding: 0; 
+}
+.navbar{
+    z-index: 2;
+}
+.jumbotron{
+    background-image: linear-gradient(to bottom, rgb(56, 56, 56, .25), white), url("./assets/close-up-photo-of-motherboard-1432672.jpg");
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    min-height: 300px;
+    margin-bottom: 50px;
+}
+.jumbotron.fixed-top{
+    z-index: 1;
+}
+
+#jumbotrontext{
+    position: absolute;
+    bottom: 0;
+    color: #212529;
+    font-weight: 700;
+}
+
+.main-content {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainimage{
+    height: 300px;
+}
+.section1-col1{
+
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 20px;
+    text-align: right;
+
+}
+
+.section1-col2{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.section2-col1{
+
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.section2-col2{
+
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+}
+
+.section3-col1{
+
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: right;
+}
+.section3-col2{
+
+    margin-top: auto;
+    margin-bottom: auto;
+}
