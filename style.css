@@ -1,75 +1,113 @@
-body{
+body {
+  color: #212529;
+  background-color: white;
+}
+h2{
     color: #212529;
-    background-color:white;
-}
-.row { 
-    margin: 0;
-    padding: 0; 
-}
-.navbar{
-    z-index: 2;
-}
-.jumbotron{
-    background-image: linear-gradient(to bottom, rgb(56, 56, 56, .25), white), url("./assets/close-up-photo-of-motherboard-1432672.jpg");
-    background-size: cover;
-    position: relative;
-    height: 500px;
-    min-height: 300px;
-    margin-bottom: 50px;
-}
-.jumbotron.fixed-top{
-    z-index: 1;
 }
 
-#jumbotrontext{
-    position: absolute;
-    bottom: 0;
-    color: #212529;
-    font-weight: 700;
+.row {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  z-index: 2;
+}
+.jumbotron {
+  background-image: linear-gradient(to bottom, rgb(56, 56, 56, 0.25), white),
+    url("./assets/close-up-photo-of-motherboard-1432672.jpg");
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  min-height: 300px;
+  margin-bottom: 50px;
+}
+.jumbotron.fixed-top {
+  z-index: 1;
+}
+
+#jumbotrontext {
+  position: absolute;
+  bottom: 0;
+  color: #212529;
+  font-weight: 700;
 }
 
 .main-content {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-.mainimage{
-    height: 300px;
-}
-.section1-col1{
-
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-right: 20px;
-    text-align: right;
-
+.mainimage {
+  height: 300px;
 }
 
-.section1-col2{
-    margin-top: auto;
-    margin-bottom: auto;
+.section1 {
+  padding-right: 40px;
+  height: 150px;
+}
+.subsection1 {
+  padding-top: 30px;
+  text-align: right;
 }
 
-.section2-col1{
+.parallax1 {
+  /* The image used */
+  background-image: linear-gradient(to bottom, transparent, rgb(20, 20, 27)),
+    url(./assets/photo-of-person-typing-on-computer-keyboard-735911_1000.jpg);
 
-    margin-top: auto;
-    margin-bottom: auto;
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.section2-col2{
 
-    margin-top: auto;
-    margin-bottom: auto;
-    text-align: left;
+.section2 {
+  padding-left: 40px;
+  height: 300px;
+}
+.subsection2 {
+  padding-top: 200px;
+  text-align: left;
+}
+.parallax2 {
+  /* The image used */
+  background-image: linear-gradient(to bottom, transparent, rgb(20, 20, 27)),
+    url(./assets/black-crt-tv-showing-gray-screen-704555.jpg);
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.section3-col1{
-
-    margin-top: auto;
-    margin-bottom: auto;
-    text-align: right;
+.section3 {
+  padding-right: 40px;
+  height: 300px;
 }
-.section3-col2{
+.subsection3 {
+  padding-top: 200px;
+  text-align: right;
+}
+.parallax3 {
+  /* The image used */
+  background-image: linear-gradient(to bottom, transparent, rgb(20, 20, 27)),
+    url(assets/bandwidth-close-up-computer-connection-1148820.jpg);
 
-    margin-top: auto;
-    margin-bottom: auto;
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
